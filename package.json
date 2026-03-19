@@ -27,7 +27,14 @@
 		"eslint-config-next": "16.0.7",
 		"tailwindcss": "4.1.17",
 		"typescript": "5.9.3",
-		"wrangler": "4.56.0"
+		"wrangler": "4.56.0",
+		"@emotion/react": "latest",
+		"@emotion/styled": "latest",
+		"@mui/icons-material": "latest",
+		"@mui/material": "latest",
+		"@mui/utils": "latest",
+		"react": "latest",
+		"react-dom": "latest"
 	},
 	"private": true,
 	"scripts": {
