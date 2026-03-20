@@ -65,18 +65,17 @@ export default function Hero() {
           sx={{ alignItems: 'center', width: { xs: '100%', sm: '70%' } }}
         >
           <Typography
-            variant="h1"
+            variant="h2"
             sx={{
               display: 'flex',
               flexDirection: { xs: 'column', sm: 'row' },
               alignItems: 'center',
-              fontSize: 'clamp(3rem, 10vw, 3.5rem)',
+              fontSize: 'clamp(2.2rem, 8vw, 2.2rem)',
             }}
           >
-            Our&nbsp;latest&nbsp;
             <Typography
               component="span"
-              variant="h1"
+              variant="h2"
               sx={(theme) => ({
                 fontSize: 'inherit',
                 color: 'primary.main',
@@ -85,8 +84,9 @@ export default function Hero() {
                 }),
               })}
             >
-              products
+              Pay half to order
             </Typography>
+            &nbsp;Agent&nbsp;Service
           </Typography>
           <Typography
             sx={{
@@ -95,26 +95,24 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+            New trending agent experience, pay half to order, pay rest after qc. Powered by <a href="https://poshrep.x.yupoo.com" target="_blank">Poshrep</a>
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
             spacing={1}
             useFlexGap
-            sx={{ pt: 2, width: { xs: '100%', sm: '350px' } }}
+            sx={{ pt: 2, width: { xs: '100%', sm: '80%' } }}
           >
             <InputLabel htmlFor="email-hero" sx={visuallyHidden}>
-              Email
+              Link
             </InputLabel>
             <TextField
               id="email-hero"
               hiddenLabel
-              size="small"
+              size="medium"
               variant="outlined"
               aria-label="Enter your email address"
-              placeholder="Your email address"
+              placeholder="Enter the product link"
               fullWidth
               slotProps={{
                 htmlInput: {
