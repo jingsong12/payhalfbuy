@@ -7,34 +7,34 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 
-import DevicesRoundedIcon from '@mui/icons-material/DevicesRounded';
-import EdgesensorHighRoundedIcon from '@mui/icons-material/EdgesensorHighRounded';
-import ViewQuiltRoundedIcon from '@mui/icons-material/ViewQuiltRounded';
+import PaidIcon from '@mui/icons-material/Paid';
+import AddAPhotoIcon  from '@mui/icons-material/AddAPhoto';
+import FlightTakeoff from '@mui/icons-material/FlightTakeoff';
 
 const items = [
   {
-    icon: <ViewQuiltRoundedIcon />,
-    title: 'Dashboard',
+    icon: <PaidIcon />,
+    title: 'Share link and pay to order',
     description:
-      'This item could provide a snapshot of the most important metrics or data points related to the product.',
-    imageLight: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/dash-light.png")`,
-    imageDark: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/dash-dark.png")`,
+      'You can either contact customer service at whatsapp or at the site (in development)',
+    imageLight: `url(/images/process1.jpg)`,
+    imageDark: `url(/images/process1.jpg)`,
   },
   {
-    icon: <EdgesensorHighRoundedIcon />,
-    title: 'Mobile integration',
+    icon: <AddAPhotoIcon  />,
+    title: 'We qc for you',
     description:
-      'This item could provide information about the mobile app version of the product.',
-    imageLight: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/mobile-light.png")`,
-    imageDark: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/mobile-dark.png")`,
+      'The timeline depending on seller ship, if seller ship fast we qc fast',
+    imageLight: `url(/images/process2.jpg)`,
+    imageDark: `url(/images/process2.jpg)`,
   },
   {
-    icon: <DevicesRoundedIcon />,
-    title: 'Available on all platforms',
+    icon: <FlightTakeoff />,
+    title: 'We ship for you',
     description:
-      'This item could let users know the product is available on all platforms, such as web, mobile, and desktop.',
-    imageLight: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/devices-light.png")`,
-    imageDark: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/devices-dark.png")`,
+      'We ship using our professional shipment, powered by poshrep. We share you photos and shipping label',
+    imageLight: `url(/images/process3.jpg)`,
+    imageDark: `url(/images/process3.jpg)`,
   },
 ];
 
@@ -151,15 +151,13 @@ export default function Features() {
           gutterBottom
           sx={{ color: 'text.primary' }}
         >
-          Product features
+          How it works
         </Typography>
         <Typography
           variant="body1"
           sx={{ color: 'text.secondary', mb: { xs: 2, sm: 4 } }}
         >
-          Provide a brief overview of the key features of the product. For example,
-          you could list the number of features, their types or benefits, and
-          add-ons.
+          You can pay half of the products price, then we order to the seller. You can also ask for a dedicated warehouse address then ship to our address. After items arrived at our warehouse we qc for you, then you pay the rest then we ship.
         </Typography>
       </Box>
       <Box
