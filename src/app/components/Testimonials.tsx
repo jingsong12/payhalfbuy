@@ -12,44 +12,44 @@ const userTestimonials = [
   {
     avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />,
     name: 'Remy Sharp',
-    occupation: 'Senior Engineer',
+    occupation: 'France',
     testimonial:
-      "I absolutely love how versatile this product is! Whether I'm tackling work projects or indulging in my favorite hobbies, it seamlessly adapts to my changing needs. Its intuitive design has truly enhanced my daily routine, making tasks more efficient and enjoyable.",
+      "I had a fantastic experience working with Payhalfbuy. From the very first meeting, it was clear they had a deep understanding of the market and actually listened to what I needed. They were incredibly responsive, often answering my questions before I even had to ask. Professional, transparent, and genuinely supportive throughout the whole process. I highly recommend them to anyone looking for a stress-free experience!",
   },
   {
     avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />,
     name: 'Travis Howard',
-    occupation: 'Lead Product Designer',
+    occupation: 'United kingdom',
     testimonial:
-      "One of the standout features of this product is the exceptional customer support. In my experience, the team behind this product has been quick to respond and incredibly helpful. It's reassuring to know that they stand firmly behind their product.",
+      "Huge shoutout to Payhalfbuy for helping me resolve my issue with Payhalfbuy. I was frustrated after trying to fix it myself, but they stepped in and handled everything with patience and efficiency. It’s rare to find this level of personalized service these days. Thank you for making a complicated situation feel simple!",
   },
   {
     avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />,
     name: 'Cindy Baker',
-    occupation: 'CTO',
+    occupation: 'Germany',
     testimonial:
-      'The level of simplicity and user-friendliness in this product has significantly simplified my life. I appreciate the creators for delivering a solution that not only meets but exceeds user expectations.',
+      'Five-star service from start to finish! Payhalfbuy is professional, knowledgeable, and easy to work with. They made the entire process seamless and saved me a ton of time. Wouldn’t go anywhere else.',
   },
   {
     avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/4.jpg" />,
     name: 'Julia Stewart',
-    occupation: 'Senior Engineer',
+    occupation: 'United States',
     testimonial:
-      "I appreciate the attention to detail in the design of this product. The small touches make a big difference, and it's evident that the creators focused on delivering a premium experience.",
+      "I was initially hesitant to go with a newer agent, but Payhalfbuy completely blew me away. Their energy and modern approach to marketing/data are exactly what the industry needs. Unlike some of the larger agencies, I felt like a priority, not just a number. They were incredibly tech-savvy, using [mention a tool, like virtual tours or AI valuations] to give me an edge. If you want someone who works harder and thinks outside the box, this is your person!",
   },
   {
     avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/5.jpg" />,
     name: 'John Smith',
-    occupation: 'Product Designer',
+    occupation: 'Sweden',
     testimonial:
-      "I've tried other similar products, but this one stands out for its innovative features. It's clear that the makers put a lot of thought into creating a solution that truly addresses user needs.",
+      "Finally, a service that actually feels like it belongs in 2026! I started using Payhalfbuy recently and the efficiency is unmatched. The [mention a specific feature, like 'AI matching' or '24/7 automated updates'] saved me hours of manual work. It’s rare to find a new service that hits the ground running with such a polished, user-friendly experience. Highly recommend for anyone tired of the old way of doing things.",
   },
   {
     avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/6.jpg" />,
     name: 'Daniel Wolf',
-    occupation: 'CDO',
+    occupation: 'Switzerland',
     testimonial:
-      "The quality of this product exceeded my expectations. It's durable, well-designed, and built to last. Definitely worth the investment!",
+      "Don't let the fact that they're new fool you—Payhalfbuy is the real deal. They brought a level of passion and attention to detail that I haven't seen from the 'big' names in years. Professional, fast, and extremely knowledgeable about current market trends. Definitely a rising star to watch!",
   },
 ];
 
@@ -117,10 +117,10 @@ export default function Testimonials() {
           gutterBottom
           sx={{ color: 'text.primary' }}
         >
-          Testimonials
+          Feedbacks
         </Typography>
         <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-          See what our customers love about our products. Discover how we excel in
+          See what our customers love about our services. Discover how we excel in
           efficiency, durability, and satisfaction. Join us for quality, innovation,
           and reliable support.
         </Typography>

@@ -80,12 +80,14 @@ export default function AppAppBar() {
               alignItems: 'center',
             }}
           >
-            <Button color="primary" variant="text" size="small">
+            {/* <Button color="primary" variant="text" size="small">
               Sign in
-            </Button>
-            <Button color="primary" variant="contained" size="small">
-              Sign up
-            </Button>
+            </Button> */}
+            <a href="https://wa.me/8618950778251" target='_blank'>
+              <Button color="primary" variant="contained" size="small">
+                Order in whatsapp
+              </Button>
+            </a>
             <ColorModeIconDropdown />
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
@@ -123,15 +125,17 @@ export default function AppAppBar() {
                 <MenuItem>Blog</MenuItem>
                 <Divider sx={{ my: 3 }} />
                 <MenuItem>
-                  <Button color="primary" variant="contained" fullWidth>
-                    Sign up
-                  </Button>
+                  <a href="https://wa.me/8618950778251" target='_blank'>
+                    <Button color="primary" variant="contained" size="small">
+                      Order in whatsapp
+                    </Button>
+                  </a>
                 </MenuItem>
-                <MenuItem>
+                {/* <MenuItem>
                   <Button color="primary" variant="outlined" fullWidth>
                     Sign in
                   </Button>
-                </MenuItem>
+                </MenuItem> */}
               </Box>
             </Drawer>
           </Box>

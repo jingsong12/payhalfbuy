@@ -23,12 +23,12 @@ export default function MarketingPage(props: { disableCustomTheme?: boolean }) {
         <LogoCollection />
         <Features />
         <Divider />
-        <Testimonials />
-        <Divider />
         <Highlights />
         <Divider />
-        <Pricing />
+        <Testimonials />
         <Divider />
+        {/* <Pricing /> */}
+        {/* <Divider /> */}
         <FAQ />
         <Divider />
         <Footer />
