@@ -60,7 +60,7 @@ export default function AppAppBar() {
                 Testimonials
               </Button>
               <Button variant="text" color="info" size="small">
-                Highlights
+                Benefits
               </Button>
               <Button variant="text" color="info" size="small">
                 Pricing
@@ -119,7 +119,7 @@ export default function AppAppBar() {
 
                 <MenuItem>Features</MenuItem>
                 <MenuItem>Testimonials</MenuItem>
-                <MenuItem>Highlights</MenuItem>
+                <MenuItem>Benefits</MenuItem>
                 <MenuItem>Pricing</MenuItem>
                 <MenuItem>FAQ</MenuItem>
                 <MenuItem>Blog</MenuItem>

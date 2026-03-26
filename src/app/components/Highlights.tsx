@@ -14,46 +14,46 @@ import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
 const items = [
   {
     icon: <SettingsSuggestRoundedIcon />,
-    title: 'Adaptable performance',
+    title: 'Fast shipment',
     description:
-      'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
+      'As a poshrep agent service, our shipment line is as fast as poshrep, 8-10 days arrive for international shipment',
   },
   {
     icon: <ConstructionRoundedIcon />,
-    title: 'Built to last',
+    title: 'Best shipping fee',
     description:
-      'Experience unmatched durability that goes above and beyond with lasting investment.',
+      'We can eusure our shipping fee is best price compared to all agents & sellers, you not overpaid any coin for shipping fee',
   },
   {
     icon: <ThumbUpAltRoundedIcon />,
-    title: 'Great user experience',
+    title: 'Innovative payment plan',
     description:
-      'Integrate our product into your routine with an intuitive and easy-to-use interface.',
+      `Pay half to order make it ease the finance pressure of your business, pay after qc makes you more comfortable with the process`,
   },
   {
     icon: <AutoFixHighRoundedIcon />,
-    title: 'Innovative functionality',
+    title: 'Professional customer service',
     description:
-      'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
+      'Customer service always online for help and serve',
   },
   {
     icon: <SupportAgentRoundedIcon />,
-    title: 'Reliable support',
+    title: 'Detailed quality check',
     description:
-      'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
+      'We take photos of each aspects of the products arrived, you can inspect the products.',
   },
   {
     icon: <QueryStatsRoundedIcon />,
-    title: 'Precision in every detail',
+    title: 'Efficient proceed speed',
     description:
-      'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
+      'We process order the same day you ordered, ship same day the rest payment is done',
   },
 ];
 
 export default function Highlights() {
   return (
     <Box
-      id="highlights"
+      id="Benefits"
       sx={{
         pt: { xs: 4, sm: 12 },
         pb: { xs: 8, sm: 16 },
@@ -77,12 +77,10 @@ export default function Highlights() {
           }}
         >
           <Typography component="h2" variant="h4" gutterBottom>
-            Highlights
+            Benefits
           </Typography>
           <Typography variant="body1" sx={{ color: 'grey.400' }}>
-            Explore why our product stands out: adaptability, durability,
-            user-friendly design, and innovation. Enjoy reliable customer support and
-            precision in every detail.
+            Explore why our agent service stands out: adaptability, durability, and innovation.
           </Typography>
         </Box>
         <Grid container spacing={2}>

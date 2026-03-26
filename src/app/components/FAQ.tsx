@@ -55,7 +55,7 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="span" variant="subtitle2">
-              How do I contact customer support if I have a question or issue?
+              How do I contact customer support to order and query some questions
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -64,9 +64,9 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              You can reach our customer support team by emailing&nbsp;
-              <Link href="mailto:support@email.com">support@email.com</Link>
-              &nbsp;or calling our toll-free number. We&apos;re here to assist you
+              You can reach our customer support team by click&nbsp;
+              <a href="https://wa.me/8618950778251" target='_blank'>Whatsapp</a>
+              &nbsp;or at the 'Order in whatsapp' buttom. We&apos;re here to assist you
               promptly.
             </Typography>
           </AccordionDetails>
@@ -91,8 +91,7 @@ export default function FAQ() {
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
               Absolutely! We offer a hassle-free return policy. If you&apos;re not
-              completely satisfied, you can return the product within [number of
-              days] days for a full refund or exchange.
+              completely satisfied, you can return the product within 5 days from qc for a refund or exchange, fees will applied.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -106,7 +105,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="span" variant="subtitle2">
-              What makes your product stand out from others in the market?
+              What is it caught by customs?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -115,9 +114,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability, durability,
-              and innovative features. We prioritize user satisfaction and
-              continually strive to exceed expectations in every aspect.
+              If your products are reps like, it have a chance that some countries' customs inpect parcels and get caught, at this case the loss will be on you. But you can still pay 1/3 of the parcel value to buy insurance, if caught we refund full.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -131,7 +128,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="span" variant="subtitle2">
-              Is there a warranty on the product, and what does it cover?
+              Is payhalfbuy legit?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -140,10 +137,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Yes, our product comes with a [length of warranty] warranty. It covers
-              defects in materials and workmanship. If you encounter any issues
-              covered by the warranty, please contact our customer support for
-              assistance.
+              Yes, we're poshrep's agent service, we branded it into payhalfbuy as a dedicated agent service, it's guranteed by poshrep.
             </Typography>
           </AccordionDetails>
         </Accordion>
