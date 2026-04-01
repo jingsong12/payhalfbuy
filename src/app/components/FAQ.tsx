@@ -65,7 +65,7 @@ export default function FAQ() {
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
               You can reach our customer support team by click&nbsp;
-              <a href="https://wa.me/8618950778251" target='_blank'>Whatsapp</a>
+              <a href="https://wa.me/85291359784" target='_blank'>Whatsapp</a>
               &nbsp;or at the 'Order in whatsapp' buttom. We&apos;re here to assist you
               promptly.
             </Typography>

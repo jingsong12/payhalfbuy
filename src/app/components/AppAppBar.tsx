@@ -83,7 +83,7 @@ export default function AppAppBar() {
             {/* <Button color="primary" variant="text" size="small">
               Sign in
             </Button> */}
-            <a href="https://wa.me/8618950778251" target='_blank'>
+            <a href="https://wa.me/85291359784" target='_blank'>
               <Button color="primary" variant="contained" size="small">
                 Order in whatsapp
               </Button>
@@ -125,7 +125,7 @@ export default function AppAppBar() {
                 <MenuItem>Blog</MenuItem>
                 <Divider sx={{ my: 3 }} />
                 <MenuItem>
-                  <a href="https://wa.me/8618950778251" target='_blank'>
+                  <a href="https://wa.me/85291359784" target='_blank'>
                     <Button color="primary" variant="contained" size="small">
                       Order in whatsapp
                     </Button>
